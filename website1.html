@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website of Cskian</title>
+    <style>
+        *{
+            margin: 0;
+        }
+    
+        header{
+            background-color: yellow;
+            text-align: center;
+            padding: 20px;
+        }
+        nav{
+            background-color: rgb(222, 153, 216);
+            text-align: right;
+            position: sticky;
+            top: 0;
+          
+        }
+        ul{
+            list-style-type: none;
+        }
+        li{
+            display: inline-block;
+            padding: 10px;
+            
+        }
+        li a{
+            text-decoration: none;
+        }
+    
+        #images{
+            display: flex;
+            flex: 10;
+            margin: 5px;
+            text-align: center;
+           
+        }
+        section div{
+            flex: 10;
+            margin: 5px;
+           
+            border: solid;
+        }
+        #iframe{
+            display: flex;
+        }
+       
+       #youtube{
+        flex: 50%;
+        margin-right: 5px;
+       }
+       #map{
+        flex: 50%;
+       }
+       footer{
+        background-color: aqua;
+        text-align: center;
+        padding: 10px;
+       }
+       @media(max-width:700px) {
+        #iframe, #images{
+            flex-direction: column;
+        }
+
+       }
+        
+    </style>
+</head>
+<body>
+    <header>
+       <h1>Champion Super Kings</h1> 
+    </header>
+   
+    <nav>
+        <ul>
+            <li><a href="Flexbox_layout.html">Home</a></li>
+            <li><a href="">About team</a></li>
+            <li><a href="">Gallery</a></li>
+            <li><a href="">History</a></li>
+        </ul>
+    </nav>
+    <aside>
+        <img src="https://www.pngitem.com/pimgs/m/127-1270691_chennai-super-kings-logo-png-image-free-download.png" height="500px" width="100%"> 
+    </aside>
+    <section id="images" class="img">
+         <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2fkBFz7SkftxNqVRRPxaapGx4s8pEbwlPWg&usqp=CAU" width="100%" height="400">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, cumque voluptate. Sequi autem numquam neque suscipit, voluptatum adipisci in tempora, omnis voluptates unde voluptas vitae laudantium, at eveniet maxime quidem!</p>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2fkBFz7SkftxNqVRRPxaapGx4s8pEbwlPWg&usqp=CAU" width="100%" height="400">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, cumque voluptate. Sequi autem numquam neque suscipit, voluptatum adipisci in tempora, omnis voluptates unde voluptas vitae laudantium, at eveniet maxime quidem!</p>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2fkBFz7SkftxNqVRRPxaapGx4s8pEbwlPWg&usqp=CAU" width="100%" height="400">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, cumque voluptate. Sequi autem numquam neque suscipit, voluptatum adipisci in tempora, omnis voluptates unde voluptas vitae laudantium, at eveniet maxime quidem!</p>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2fkBFz7SkftxNqVRRPxaapGx4s8pEbwlPWg&usqp=CAU" width="100%" height="400">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, cumque voluptate. Sequi autem numquam neque suscipit, voluptatum adipisci in tempora, omnis voluptates unde voluptas vitae laudantium, at eveniet maxime quidem!</p>
+        </div>
+    </section>
+    <section id="iframe" class="video">
+        <span id="youtube">
+            <h2> YouTube</h2>
+            <iframe width="100%" height="315" src="https://www.youtube.com/embed/ov75dPKhr6s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </span>
+        <span id="map">
+            <h2>Google Map</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d122283.68866751915!2d74.15646471076678!3d16.708616658026628!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1000cdec07a29%3A0xece8ea642952e42f!2sKolhapur%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1690907148701!5m2!1sen!2sin" width="100%" height="315" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </span>
+    </section>
+    <footer>
+        <h3> footer content</h3>
+    </footer>
+</body>
+</html>
